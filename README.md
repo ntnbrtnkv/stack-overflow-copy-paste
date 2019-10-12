@@ -21,7 +21,7 @@ This repository exists as a resource for people to learn how to contribute to op
 ```javascript
 import {flatten, snakeToCamel, clone} from 'stack-overflow-copy-paste'
 
-flatten([[1, 2,], 3]) // [1, 2, 3]
+flatten([[1, 2,], 3]) // [1, 2, 3];
 snakeToCamel('snake-case-string') // 'snakeCaseString'
 
 const testObj = {a: 1, b: 2}
